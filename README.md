@@ -1,6 +1,6 @@
 # mySQLOperationsViaPython
 
-# This project is done as part of basic python training 
+
 
 Basic tasks invloved in this project :
 
