@@ -10,16 +10,12 @@ Basic tasks invloved in this project :
 
 Implementation : 
 
-1. --->User has givern th eoption to choose any of the following options: CREATE, INSERT,UPDATE ,DELETE and FETCH data .
-2. --> A class is created for these operationas and for each operation, one function is made inside the class.
-3. --> Based on user selection specific function will be called from main. 
-4. ---> CREATE : ---> User can enter table name , column numbers , column name, datatype and contraints for each of the column . The table will be created as per the entered                     inputs. 
-              ---> If the table already exists in the db , user will be asked to procced with another name , or to terminate the create operation.
-               
+1. User has givern th eoption to choose any of the following options: CREATE, INSERT,UPDATE ,DELETE and FETCH data .
+2. A class is created for these operationas and for each operation, one function is made inside the class.
+3. Based on user selection specific function will be called from main. 
+4. CREATE : ---> User can enter table name , column numbers , column name, datatype and contraints for each of the column . The table will be created as per the entered                     inputs. If the table already exists in the db , user will be asked to procced with another name , or to terminate the create operation.
 5.--->INSERT :  ---> Usr can enter table name . The prgramme will ask the mode of insert. Two options were given. 1. input from csv. 2. manual input by the user  
-
                 ---> 1. input from csv : THe user will be prompted to choose the csv file from system. the values from csv will be inserted into the db table. 
-                
                  ---> 2. Manual input : User will be asked to enter values for each of the column. Those values will be inserted into the the table.
                  
 6.--->UPDATE:----> User can enter the table name ,the program will ask the update conditions (column name and value) ,and the column which needs to be updated ,and the value.
